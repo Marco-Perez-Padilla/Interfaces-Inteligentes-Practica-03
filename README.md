@@ -72,9 +72,13 @@ el control total:
 nombre del objeto con el que colisiona, y cámbiale su color al colisionar:
 [Script](Scripts/ColissionAndColour.cs)
 
+
 ![GIF](Gifs/GIF-E-2.1.gif)
 
+
+
 ![GIF](Gifs/GIF-E-2.2.gif)
+
 
 3. Crea una zona (por ejemplo, un cubo grande con Is Trigger = true). Al
 entrar, cambia el color del personaje o activa un efecto que cambie la luz. Al salir, revierte el
@@ -88,9 +92,13 @@ Configura la Layer Collision Matrix (Project Settings > Physics). Haz que los en
 solo colisionen con el jugador, y que los recolectables solo sean detectados por triggers:
 [Script](Scripts/Collectible.cs)
 
+
 ![GIF](Gifs/GIF-E-4.1.gif)
 
+
+
 ![GIF](Gifs/GIF-E-4.2.gif)
+
 
 5. Crea una escena con distintos materiales físicos (resbaladizo, rugoso, rebote
 alto). Aplica distintos Physic Materials a objetos. Lanza los objetos con AddForce() al
@@ -98,11 +106,3 @@ pulsar la tecla X y observa cómo cambian las reacciones:
 [Script](Scripts/ThrowObject.cs)
 
 ![GIF](Gifs/GIF-E-5.gif)
-
-12. Cubo mirando a la esfera siempre mirándola a ella:
-
-![GIF](Gifs/Practica-02.%20Ejercicio%2012.gif)
-
-13. Cubo avanzando hacia su "adelante" siempre mediante rotar su eje horizontal:
-
-![GIF](Gifs/Practica-02.%20Ejercicio%2013.gif)
